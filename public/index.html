@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Application de gestion de réservations de restaurants</h1>
+    <div>
+        <h2>Enregistrement</h2>
+        <form id="registerForm">
+            <input type="text" id="nom" placeholder="Nom" required>
+            <input type="text" id="prenom" placeholder="Prenom" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="text" id="adresse" placeholder="Adresse" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="carte_bancaire" placeholder="Carte Bancaire" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <div>
+        <h2>Authentification</h2>
+        <form id="authenticateForm">
+            <input type="email" id="authEmail" placeholder="Email" required>
+            <input type="password" id="authPassword" placeholder="Password" required>
+            <button type="submit">Authenticate</button>
+        </form>
+    </div>
+    <div id="crudSection" style="display: none;">
+        <h2>Utilisateurs</h2>
+        <button id="getUsers">Tous les utilisateurs</button>
+        <ul id="usersList"></ul>
+        <h2>Sélectionner un utilisateur</h2>
+        <select id="userSelect"></select>
+        <button id="selectUser">Afficher les détails</button>
+        <ul id="selectedUser"></ul>
+        <h2>Modifier l'utilisateur</h2>
+        <form id="editUserForm">
+            <input type="text" id="editNom" placeholder="Nom" required>
+            <input type="text" id="editPrenom" placeholder="Prenom" required>
+            <input type="password" id="editPassword" placeholder="Password" required>
+            <input type="text" id="editAdresse" placeholder="Adresse" required>
+            <input type="email" id="editEmail" placeholder="Email" required>
+            <input type="text" id="editCarteBancaire" placeholder="Carte Bancaire" required>
+            <button type="submit">Modifier</button>
+        </form>
+        <button id="deleteUser">Supprimer l'utilisateur</button>
+        <button id="logout">Déconnecter</button>
+    </div>
+    <div id="authError" style="display: none;">
+        <p>Vous devez être authentifié pour accéder à cette section.</p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
