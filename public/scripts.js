@@ -1,4 +1,3 @@
-// Vérifier l'authentification au chargement de la page
 document.addEventListener('DOMContentLoaded', () => {
     const token = localStorage.getItem('token');
     if (token) {
@@ -10,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// Gestionnaire d'événements pour l'inscription
 document.getElementById('registerForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const nom = document.getElementById('nom').value;
@@ -46,7 +44,6 @@ document.getElementById('registerForm').addEventListener('submit', async (e) => 
     }
 });
 
-// Gestionnaire d'événements pour l'authentification
 document.getElementById('authenticateForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const email = document.getElementById('authEmail').value;
@@ -78,7 +75,6 @@ document.getElementById('authenticateForm').addEventListener('submit', async (e)
     }
 });
 
-// Gestionnaire d'événements pour récupérer les utilisateurs
 document.getElementById('getUsers').addEventListener('click', async () => {
     const token = localStorage.getItem('token');
     if (!token) {
@@ -118,7 +114,6 @@ document.getElementById('getUsers').addEventListener('click', async () => {
     }
 });
 
-// Gestionnaire d'événements pour afficher les détails de l'utilisateur sélectionné
 document.getElementById('selectUser').addEventListener('click', async () => {
     const token = localStorage.getItem('token');
     if (!token) {
@@ -145,7 +140,6 @@ document.getElementById('selectUser').addEventListener('click', async () => {
         li.textContent = `${user.nom} ${user.prenom} - ${user.email}`;
         selectedUser.appendChild(li);
 
-        // Remplir le formulaire de modification avec les informations de l'utilisateur
         document.getElementById('editNom').value = user.nom;
         document.getElementById('editPrenom').value = user.prenom;
         document.getElementById('editPassword').value = user.password;
@@ -158,7 +152,6 @@ document.getElementById('selectUser').addEventListener('click', async () => {
     }
 });
 
-// Gestionnaire d'événements pour modifier l'utilisateur sélectionné
 document.getElementById('editUserForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const token = localStorage.getItem('token');
@@ -195,7 +188,6 @@ document.getElementById('editUserForm').addEventListener('submit', async (e) => 
     }
 });
 
-// Gestionnaire d'événements pour supprimer l'utilisateur sélectionné
 document.getElementById('deleteUser').addEventListener('click', async () => {
     const token = localStorage.getItem('token');
     if (!token) {
@@ -217,7 +209,6 @@ document.getElementById('deleteUser').addEventListener('click', async () => {
         }
 
         alert('Utilisateur supprimé avec succès');
-        // Mettre à jour la liste des utilisateurs
         document.getElementById('getUsers').click();
     } catch (error) {
         console.error('Erreur:', error);
@@ -225,7 +216,6 @@ document.getElementById('deleteUser').addEventListener('click', async () => {
     }
 });
 
-// Gestionnaire d'événements pour la déconnexion
 document.getElementById('logout').addEventListener('click', () => {
     localStorage.removeItem('token');
     document.getElementById('crudSection').style.display = 'none';

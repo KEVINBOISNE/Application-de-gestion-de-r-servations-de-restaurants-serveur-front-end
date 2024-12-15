@@ -8,11 +8,10 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 
-let authenticatedUsers = {}; // Objet global pour stocker les utilisateurs authentifiés
+let authenticatedUsers = {}; 
 
 app.use(express.json());
 
-// Middleware personnalisé pour journaliser les requêtes reçues dans un fichier
 app.use((req, res, next) => {
     const log = `${new Date().toISOString()} ${req.method} ${req.url} ${JSON.stringify(req.body)}\n`;
     fs.appendFile(path.join(__dirname, 'access.log'), log, (err) => {
@@ -32,8 +31,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(express.static(path.join(__dirname, 'public'))); // Servir les fichiers statiques
-
+app.use(express.static(path.join(__dirname, 'public'))); 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
