@@ -1,0 +1,766 @@
+2024-12-15T14:32:47.239Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:10:49.796Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:11:06.902Z POST /register {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:11:16.910Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:11:49.227Z POST /users {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:11:56.589Z POST /users {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:12:03.423Z POST /users/6 {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:12:12.490Z GET /users/6 {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:12:16.373Z GET /users {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:12:22.906Z GET /users/ {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:12:39.384Z GET /users/:id_compte_utilisateur {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:12:44.535Z GET /users/:id {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:12:48.717Z GET /users {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:13:34.433Z GET /users/ {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:13:51.936Z GET /users/:id_compte_utilisateur {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:14:05.361Z GET /users/ {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:14:31.840Z GET /users/ {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:14:41.904Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:14:52.921Z GET /users/5 {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:14:58.571Z GET /users/6 {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:15:01.827Z GET /users {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:15:09.237Z GET /users/ {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:15:19.896Z GET /users:id_compte_utilisateur {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:15:24.190Z GET /users/:id_compte_utilisateur {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T15:50:05.122Z GET / {}
+2024-12-15T15:50:05.220Z GET /styles.css {}
+2024-12-15T15:50:05.227Z GET /scripts.js {}
+2024-12-15T15:50:05.269Z GET /favicon.ico {}
+2024-12-15T15:50:43.106Z GET /? {}
+2024-12-15T15:50:50.646Z GET /favicon.ico {}
+2024-12-15T15:52:07.985Z GET / {}
+2024-12-15T15:52:08.032Z GET /styles.css {}
+2024-12-15T15:52:08.038Z GET /scripts.js {}
+2024-12-15T15:52:08.070Z GET /favicon.ico {}
+2024-12-15T15:52:13.469Z GET /? {}
+2024-12-15T15:52:15.194Z GET /? {}
+2024-12-15T15:52:15.843Z GET /? {}
+2024-12-15T15:52:23.558Z GET / {}
+2024-12-15T15:52:23.567Z GET /styles.css {}
+2024-12-15T15:52:23.572Z GET /scripts.js {}
+2024-12-15T15:52:23.604Z GET /favicon.ico {}
+2024-12-15T15:52:30.787Z GET /? {}
+2024-12-15T15:53:31.172Z GET /? {}
+2024-12-15T15:54:01.436Z GET /? {}
+2024-12-15T15:54:02.080Z GET /? {}
+2024-12-15T15:54:02.568Z GET /? {}
+2024-12-15T15:54:04.726Z GET /favicon.ico {}
+2024-12-15T15:54:08.598Z GET / {}
+2024-12-15T15:54:08.757Z GET / {}
+2024-12-15T15:54:08.932Z GET / {}
+2024-12-15T15:54:09.249Z GET / {}
+2024-12-15T15:54:13.890Z GET / {}
+2024-12-15T15:54:53.183Z GET / {}
+2024-12-15T15:54:53.272Z GET /styles.css {}
+2024-12-15T15:54:53.279Z GET /scripts.js {}
+2024-12-15T15:54:53.315Z GET /favicon.ico {}
+2024-12-15T15:55:00.057Z GET /? {}
+2024-12-15T16:08:03.242Z GET / {}
+2024-12-15T16:08:03.350Z GET /styles.css {}
+2024-12-15T16:08:03.357Z GET /scripts.js {}
+2024-12-15T16:08:03.389Z GET /favicon.ico {}
+2024-12-15T16:09:06.158Z GET /register {}
+2024-12-15T16:10:11.615Z GET /? {}
+2024-12-15T16:16:09.455Z GET / {}
+2024-12-15T16:16:09.507Z GET /styles.css {}
+2024-12-15T16:16:09.514Z GET /scripts.js {}
+2024-12-15T16:16:09.541Z GET /favicon.ico {}
+2024-12-15T16:16:14.044Z GET /? {}
+2024-12-15T16:16:21.481Z GET /favicon.ico {}
+2024-12-15T16:18:15.762Z GET / {}
+2024-12-15T16:18:15.807Z GET /styles.css {}
+2024-12-15T16:18:15.815Z GET /scripts.js {}
+2024-12-15T16:18:15.840Z GET /favicon.ico {}
+2024-12-15T16:18:21.476Z GET /? {}
+2024-12-15T16:18:47.776Z GET / {}
+2024-12-15T16:18:47.816Z GET /styles.css {}
+2024-12-15T16:18:47.825Z GET /scripts.js {}
+2024-12-15T16:18:47.853Z GET /favicon.ico {}
+2024-12-15T16:18:56.116Z GET /? {}
+2024-12-15T16:19:19.800Z POST /users/register {"nom":"johnnnn","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:22:04.125Z POST /users/register {"nom":"johnnnn","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:25:51.182Z POST /users/register {"nom":"johnnnn","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:25:58.101Z POST /users/register {"nom":"johnnnn","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:26:27.467Z POST /users/register {"nom":"johnnnn","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:26:28.650Z POST /users/register {"nom":"johnnnn","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:26:42.265Z POST /register {"nom":"johnnnn","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:26:43.774Z POST /register {"nom":"johnnnn","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:26:58.778Z POST /register {"nom":"johnc","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:27:05.522Z POST /register {"nom":"johnc","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:29:43.666Z POST /register {"nom":"johnc","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:30:03.874Z GET / {}
+2024-12-15T16:30:03.939Z GET /favicon.ico {}
+2024-12-15T16:30:31.678Z GET / {}
+2024-12-15T16:30:31.763Z GET /styles.css {}
+2024-12-15T16:30:31.772Z GET /scripts.js {}
+2024-12-15T16:30:31.806Z GET /favicon.ico {}
+2024-12-15T16:30:37.992Z GET /? {}
+2024-12-15T16:30:48.937Z GET /register {}
+2024-12-15T16:30:48.969Z GET /favicon.ico {}
+2024-12-15T16:30:58.252Z GET /register {}
+2024-12-15T16:30:58.277Z GET /favicon.ico {}
+2024-12-15T16:31:34.739Z GET / {}
+2024-12-15T16:31:34.831Z GET /scripts.js {}
+2024-12-15T16:31:34.837Z GET /styles.css {}
+2024-12-15T16:31:34.877Z GET /favicon.ico {}
+2024-12-15T16:31:40.733Z GET /? {}
+2024-12-15T16:31:57.563Z GET / {}
+2024-12-15T16:32:08.693Z GET / {}
+2024-12-15T16:32:20.014Z GET / {}
+2024-12-15T16:32:35.583Z GET / {}
+2024-12-15T16:32:35.676Z GET /styles.css {}
+2024-12-15T16:32:35.682Z GET /scripts.js {}
+2024-12-15T16:32:35.723Z GET /favicon.ico {}
+2024-12-15T16:32:40.678Z GET /? {}
+2024-12-15T16:36:48.172Z GET /favicon.ico {}
+2024-12-15T16:36:51.261Z GET /? {}
+2024-12-15T16:36:53.124Z GET /? {}
+2024-12-15T16:36:54.295Z GET /? {}
+2024-12-15T16:36:54.754Z GET /? {}
+2024-12-15T16:37:02.371Z GET / {}
+2024-12-15T16:37:02.446Z GET /styles.css {}
+2024-12-15T16:37:02.455Z GET /scripts.js {}
+2024-12-15T16:37:02.517Z GET /favicon.ico {}
+2024-12-15T16:37:12.168Z GET /? {}
+2024-12-15T16:37:13.995Z GET /favicon.ico {}
+2024-12-15T16:37:17.755Z GET /styles.css {}
+2024-12-15T16:37:40.578Z GET /? {}
+2024-12-15T16:39:32.305Z GET / {}
+2024-12-15T16:39:32.410Z GET /styles.css {}
+2024-12-15T16:39:32.418Z GET /scripts.js {}
+2024-12-15T16:39:32.471Z GET /favicon.ico {}
+2024-12-15T16:39:38.112Z GET /? {}
+2024-12-15T16:39:50.580Z POST /register {"nom":"johnll","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:40:05.456Z POST /register {"nom":"johnuvbuyl","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:40:13.279Z GET /favicon.ico {}
+2024-12-15T16:40:54.407Z GET / {}
+2024-12-15T16:40:54.471Z GET /styles.css {}
+2024-12-15T16:40:54.521Z GET /favicon.ico {}
+2024-12-15T16:41:00.064Z GET /? {}
+2024-12-15T16:41:02.072Z GET /favicon.ico {}
+2024-12-15T16:41:30.684Z GET / {}
+2024-12-15T16:41:30.767Z GET /styles.css {}
+2024-12-15T16:41:30.773Z GET /scripts.js {}
+2024-12-15T16:41:30.843Z GET /favicon.ico {}
+2024-12-15T16:41:39.845Z GET /styles.css {}
+2024-12-15T16:43:53.126Z GET / {}
+2024-12-15T16:43:53.215Z GET /styles.css {}
+2024-12-15T16:43:53.221Z GET /scripts.js {}
+2024-12-15T16:43:53.280Z GET /favicon.ico {}
+2024-12-15T16:43:58.851Z GET /? {}
+2024-12-15T16:45:31.561Z GET / {}
+2024-12-15T16:45:31.611Z GET /styles.css {}
+2024-12-15T16:45:31.618Z GET /scripts.js {}
+2024-12-15T16:45:31.645Z GET /favicon.ico {}
+2024-12-15T16:45:36.949Z GET /? {}
+2024-12-15T16:49:57.554Z GET /? {}
+2024-12-15T16:49:59.485Z GET /? {}
+2024-12-15T16:50:00.925Z GET /? {}
+2024-12-15T16:50:26.740Z GET /favicon.ico {}
+2024-12-15T16:51:05.212Z GET /register {"nom":"johnuvbuyl","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:51:09.731Z POST /register {"nom":"johnuvbuyl","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:51:24.939Z POST /register {"nom":"johnuvbuyl","prenom":"doehhh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:51:50.067Z DELETE /users/6 {"nom":"johnuvbuyl","prenom":"doehhh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:52:04.325Z POST /authenticate {"nom":"johnuvbuyl","prenom":"doehhh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:52:49.765Z POST /users/6 {"nom":"johnuvbuyl","prenom":"doehhh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:53:07.014Z GET /users/6 {"nom":"johnuvbuyl","prenom":"doehhh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:53:12.250Z DELETE /users/6 {"nom":"johnuvbuyl","prenom":"doehhh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:53:30.706Z POST /register {"nom":"johnuvbuyl","prenom":"doehhh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:53:49.915Z POST /register {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:54:04.990Z POST /authenticate {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:54:19.964Z GET /users {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:54:39.688Z GET /users/1 {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:54:48.968Z GET /users/2 {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:54:52.737Z GET /users/3 {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:54:56.557Z GET /users/4 {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:55:57.321Z GET /? {}
+2024-12-15T16:56:12.134Z GET /favicon.ico {}
+2024-12-15T16:56:21.650Z GET /? {}
+2024-12-15T16:57:59.647Z GET /users {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:58:03.380Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:58:24.162Z GET /users {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:59:02.076Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T16:59:16.352Z GET /users {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T17:00:07.456Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T17:00:21.985Z GET /users {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T17:01:12.751Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T17:01:25.466Z GET /users {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T17:01:42.729Z GET /favicon.ico {}
+2024-12-15T17:01:55.261Z GET /? {}
+2024-12-15T17:09:18.058Z GET / {}
+2024-12-15T17:09:18.239Z GET /styles.css {}
+2024-12-15T17:09:18.249Z GET /scripts.js {}
+2024-12-15T17:09:18.303Z GET /favicon.ico {}
+2024-12-15T17:09:24.569Z GET /? {}
+2024-12-15T17:13:42.344Z GET / {}
+2024-12-15T17:13:42.449Z GET /styles.css {}
+2024-12-15T17:13:42.458Z GET /scripts.js {}
+2024-12-15T17:13:42.494Z GET /favicon.ico {}
+2024-12-15T17:13:47.616Z GET /? {}
+2024-12-15T17:19:19.328Z GET / {}
+2024-12-15T17:19:19.431Z GET /styles.css {}
+2024-12-15T17:19:19.441Z GET /scripts.js {}
+2024-12-15T17:19:19.485Z GET /favicon.ico {}
+2024-12-15T17:19:24.412Z GET /? {}
+2024-12-15T17:19:39.973Z GET /favicon.ico {}
+2024-12-15T17:24:19.685Z GET /? {}
+2024-12-15T17:27:13.745Z GET /? {}
+2024-12-15T17:27:13.782Z GET /styles.css {}
+2024-12-15T17:27:13.793Z GET /scripts.js {}
+2024-12-15T17:27:13.821Z GET /favicon.ico {}
+2024-12-15T17:27:20.356Z GET /? {}
+2024-12-15T17:27:20.382Z GET /scripts.js {}
+2024-12-15T17:27:20.375Z GET /styles.css {}
+2024-12-15T17:27:20.409Z GET /favicon.ico {}
+2024-12-15T17:27:56.682Z GET /? {}
+2024-12-15T17:27:56.700Z GET /scripts.js {}
+2024-12-15T17:27:56.709Z GET /styles.css {}
+2024-12-15T17:27:56.730Z GET /favicon.ico {}
+2024-12-15T17:33:50.236Z GET / {}
+2024-12-15T17:33:50.378Z GET /styles.css {}
+2024-12-15T17:33:50.388Z GET /scripts.js {}
+2024-12-15T17:33:50.425Z GET /favicon.ico {}
+2024-12-15T17:33:54.745Z GET /? {}
+2024-12-15T17:33:54.760Z GET /styles.css {}
+2024-12-15T17:33:54.768Z GET /scripts.js {}
+2024-12-15T17:33:54.800Z GET /favicon.ico {}
+2024-12-15T17:34:24.363Z GET /? {}
+2024-12-15T17:34:25.825Z GET /? {}
+2024-12-15T17:34:28.241Z GET /favicon.ico {}
+2024-12-15T17:34:31.120Z GET /? {}
+2024-12-15T17:34:49.888Z GET / {}
+2024-12-15T17:34:50.011Z GET /styles.css {}
+2024-12-15T17:34:50.023Z GET /scripts.js {}
+2024-12-15T17:34:50.061Z GET /favicon.ico {}
+2024-12-15T17:34:53.936Z GET /? {}
+2024-12-15T17:39:17.521Z GET / {}
+2024-12-15T17:39:17.634Z GET /styles.css {}
+2024-12-15T17:39:17.644Z GET /scripts.js {}
+2024-12-15T17:39:17.728Z GET /favicon.ico {}
+2024-12-15T17:39:22.612Z GET /? {}
+2024-12-15T17:51:35.173Z GET / {}
+2024-12-15T17:51:35.260Z GET /styles.css {}
+2024-12-15T17:51:35.269Z GET /scripts.js {}
+2024-12-15T17:51:35.318Z GET /favicon.ico {}
+2024-12-15T17:51:40.060Z POST /register {"nom":"toto","prenom":"toti","password":"gdgfdgf","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T17:51:42.341Z GET / {}
+2024-12-15T17:51:42.361Z GET /styles.css {}
+2024-12-15T17:51:42.368Z GET /scripts.js {}
+2024-12-15T17:51:42.396Z GET /favicon.ico {}
+2024-12-15T17:56:09.338Z GET / {}
+2024-12-15T17:56:09.453Z GET /styles.css {}
+2024-12-15T17:56:09.462Z GET /scripts.js {}
+2024-12-15T17:56:09.498Z GET /favicon.ico {}
+2024-12-15T17:56:15.219Z GET /? {}
+2024-12-15T17:56:20.691Z GET /favicon.ico {}
+2024-12-15T17:57:30.030Z GET / {}
+2024-12-15T17:57:30.164Z GET /styles.css {}
+2024-12-15T17:57:30.170Z GET /scripts.js {}
+2024-12-15T17:57:30.214Z GET /favicon.ico {}
+2024-12-15T17:57:36.009Z POST /register {"nom":"toto","prenom":"toti","password":"sdfsdf","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T17:58:11.020Z POST /register {"nom":"toto","prenom":"toti","password":"sdfsdf","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T17:58:12.724Z GET / {}
+2024-12-15T17:58:12.742Z GET /styles.css {}
+2024-12-15T17:58:12.751Z GET /scripts.js {}
+2024-12-15T17:58:12.777Z GET /favicon.ico {}
+2024-12-15T18:01:56.270Z GET / {}
+2024-12-15T18:01:56.373Z GET /styles.css {}
+2024-12-15T18:01:56.386Z GET /scripts.js {}
+2024-12-15T18:01:56.422Z GET /favicon.ico {}
+2024-12-15T18:02:03.555Z GET /? {}
+2024-12-15T18:05:12.087Z GET / {}
+2024-12-15T18:05:12.203Z GET /styles.css {}
+2024-12-15T18:05:12.214Z GET /scripts.js {}
+2024-12-15T18:05:12.256Z GET /favicon.ico {}
+2024-12-15T18:05:17.479Z GET /? {}
+2024-12-15T18:06:16.475Z GET / {}
+2024-12-15T18:06:16.642Z GET /styles.css {}
+2024-12-15T18:06:16.647Z GET /scripts.js {}
+2024-12-15T18:06:16.687Z GET /favicon.ico {}
+2024-12-15T18:06:22.084Z POST /register {"nom":"toto","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T18:06:23.681Z GET / {}
+2024-12-15T18:06:23.700Z GET /styles.css {}
+2024-12-15T18:06:23.708Z GET /scripts.js {}
+2024-12-15T18:06:23.738Z GET /favicon.ico {}
+2024-12-15T18:06:28.006Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:06:32.146Z GET /users {}
+2024-12-15T18:07:14.719Z GET /users {}
+2024-12-15T18:09:22.630Z GET / {}
+2024-12-15T18:09:22.763Z GET /styles.css {}
+2024-12-15T18:09:22.770Z GET /scripts.js {}
+2024-12-15T18:09:22.827Z GET /favicon.ico {}
+2024-12-15T18:09:27.909Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:09:30.926Z GET /users {}
+2024-12-15T18:09:40.180Z GET /users {}
+2024-12-15T18:11:31.461Z GET / {}
+2024-12-15T18:11:31.592Z GET /styles.css {}
+2024-12-15T18:11:31.597Z GET /scripts.js {}
+2024-12-15T18:11:31.703Z GET /favicon.ico {}
+2024-12-15T18:11:36.830Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:11:39.941Z GET /users {}
+2024-12-15T18:16:58.287Z GET / {}
+2024-12-15T18:16:58.438Z GET /styles.css {}
+2024-12-15T18:16:58.443Z GET /scripts.js {}
+2024-12-15T18:16:58.488Z GET /favicon.ico {}
+2024-12-15T18:17:08.391Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:17:11.225Z GET /users {}
+2024-12-15T18:17:19.526Z GET /users/1 {}
+2024-12-15T18:17:22.818Z GET /users/2 {}
+2024-12-15T18:17:28.777Z GET /users/3 {}
+2024-12-15T18:17:48.579Z GET /users/1 {}
+2024-12-15T18:17:56.038Z GET /users/4 {}
+2024-12-15T18:18:04.207Z GET /users/6 {}
+2024-12-15T18:20:58.443Z GET / {}
+2024-12-15T18:20:58.555Z GET /styles.css {}
+2024-12-15T18:20:58.560Z GET /scripts.js {}
+2024-12-15T18:20:58.605Z GET /favicon.ico {}
+2024-12-15T18:21:03.807Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:21:06.432Z GET /users {}
+2024-12-15T18:21:09.130Z GET /users {}
+2024-12-15T18:21:14.822Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:21:17.498Z GET /users {}
+2024-12-15T18:21:21.265Z GET /users {}
+2024-12-15T18:21:48.542Z GET / {}
+2024-12-15T18:21:48.656Z GET /styles.css {}
+2024-12-15T18:21:48.661Z GET /scripts.js {}
+2024-12-15T18:21:48.706Z GET /favicon.ico {}
+2024-12-15T18:21:54.027Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:21:56.307Z GET /users {}
+2024-12-15T18:22:01.216Z GET /users/undefined {}
+2024-12-15T18:22:04.655Z GET /users/undefined {}
+2024-12-15T18:22:28.940Z PUT /users/undefined {"nom":"john","prenom":null,"password":null,"adresse":null,"email":"","carte_bancaire":""}
+2024-12-15T18:22:34.591Z GET /users/undefined {}
+2024-12-15T18:22:44.372Z GET /users/undefined {}
+2024-12-15T18:23:23.736Z GET / {}
+2024-12-15T18:23:23.869Z GET /styles.css {}
+2024-12-15T18:23:23.876Z GET /scripts.js {}
+2024-12-15T18:23:24.001Z GET /favicon.ico {}
+2024-12-15T18:23:36.200Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:23:38.641Z GET /users {}
+2024-12-15T18:23:39.605Z GET /users {}
+2024-12-15T18:23:41.023Z GET /users/undefined {}
+2024-12-15T18:23:53.214Z PUT /users/undefined {"nom":null,"prenom":null,"password":null,"adresse":null,"email":null,"carte_bancaire":null}
+2024-12-15T18:23:56.951Z DELETE /users/undefined {}
+2024-12-15T18:23:58.774Z GET /users {}
+2024-12-15T18:24:02.283Z GET / {}
+2024-12-15T18:24:02.301Z GET /styles.css {}
+2024-12-15T18:24:02.309Z GET /scripts.js {}
+2024-12-15T18:24:02.373Z GET /favicon.ico {}
+2024-12-15T18:24:08.155Z GET /users/ {}
+2024-12-15T18:24:25.000Z PUT /users/ {"nom":null,"prenom":null,"password":null,"adresse":null,"email":null,"carte_bancaire":null}
+2024-12-15T18:27:28.925Z GET / {}
+2024-12-15T18:27:29.066Z GET /styles.css {}
+2024-12-15T18:27:29.076Z GET /scripts.js {}
+2024-12-15T18:27:29.138Z GET /favicon.ico {}
+2024-12-15T18:27:32.144Z GET /users {}
+2024-12-15T18:27:33.063Z GET /users {}
+2024-12-15T18:27:33.808Z GET /users {}
+2024-12-15T18:27:34.183Z GET /users {}
+2024-12-15T18:27:34.375Z GET /users {}
+2024-12-15T18:27:34.566Z GET /users {}
+2024-12-15T18:27:34.791Z GET /users {}
+2024-12-15T18:27:35.113Z GET /users {}
+2024-12-15T18:27:38.547Z GET /users/undefined {}
+2024-12-15T18:28:03.611Z GET / {}
+2024-12-15T18:28:12.632Z PUT /users/undefined {"nom":null,"prenom":"","password":null,"adresse":null,"email":null,"carte_bancaire":null}
+2024-12-15T18:28:13.778Z GET /styles.css {}
+2024-12-15T18:28:13.787Z GET /scripts.js {}
+2024-12-15T18:28:13.846Z GET /favicon.ico {}
+2024-12-15T18:28:23.668Z PUT /users/ {"nom":"","prenom":"","password":"","adresse":"","email":"","carte_bancaire":""}
+2024-12-15T18:28:26.049Z DELETE /users/ {}
+2024-12-15T18:28:34.004Z GET /users/ {}
+2024-12-15T18:28:34.908Z GET /users/ {}
+2024-12-15T18:28:36.064Z GET /users {}
+2024-12-15T18:28:36.783Z GET /users {}
+2024-12-15T18:28:41.020Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:28:50.200Z GET /users/undefined {}
+2024-12-15T18:29:13.047Z PUT /users/undefined {"nom":"kk","prenom":"uu","password":"hh","adresse":"g","email":"et","carte_bancaire":"1234356"}
+2024-12-15T18:29:16.934Z GET /users/undefined {}
+2024-12-15T18:29:20.764Z DELETE /users/undefined {}
+2024-12-15T18:29:22.124Z GET /users {}
+2024-12-15T18:29:29.294Z DELETE /users/undefined {}
+2024-12-15T18:29:30.636Z GET /users {}
+2024-12-15T18:29:34.456Z GET / {}
+2024-12-15T18:29:34.474Z GET /styles.css {}
+2024-12-15T18:29:34.479Z GET /scripts.js {}
+2024-12-15T18:29:34.504Z GET /favicon.ico {}
+2024-12-15T18:32:14.629Z GET / {}
+2024-12-15T18:32:14.739Z GET /styles.css {}
+2024-12-15T18:32:14.743Z GET /scripts.js {}
+2024-12-15T18:32:14.772Z PUT /users/ {"nom":null,"prenom":null,"password":null,"adresse":null,"email":null,"carte_bancaire":null}
+2024-12-15T18:32:14.797Z GET /favicon.ico {}
+2024-12-15T18:32:21.338Z GET /users/ {}
+2024-12-15T18:32:22.246Z GET /users/ {}
+2024-12-15T18:32:24.127Z GET /users/ {}
+2024-12-15T18:32:36.213Z GET /users {}
+2024-12-15T18:32:38.785Z GET /users {}
+2024-12-15T18:33:15.005Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:33:20.124Z GET /users/undefined {}
+2024-12-15T18:34:11.267Z PUT /users/undefined {"nom":"dd","prenom":"aa","password":"ee","adresse":"cc","email":"fff@gmail.com","carte_bancaire":"112456578"}
+2024-12-15T18:34:48.160Z DELETE /users/undefined {}
+2024-12-15T18:34:49.861Z GET /users {}
+2024-12-15T18:36:48.880Z GET / {}
+2024-12-15T18:36:48.990Z GET /styles.css {}
+2024-12-15T18:36:48.995Z GET /scripts.js {}
+2024-12-15T18:36:49.042Z GET /favicon.ico {}
+2024-12-15T18:36:51.699Z GET /users {}
+2024-12-15T18:36:53.606Z GET /users {}
+2024-12-15T18:36:57.234Z GET /users/null {}
+2024-12-15T18:41:26.410Z GET / {}
+2024-12-15T18:41:26.485Z GET /styles.css {}
+2024-12-15T18:41:26.491Z GET /scripts.js {}
+2024-12-15T18:41:26.553Z GET /favicon.ico {}
+2024-12-15T18:41:32.938Z GET /users {}
+2024-12-15T18:41:34.044Z GET /users {}
+2024-12-15T18:41:48.670Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:41:51.208Z GET /users {}
+2024-12-15T18:41:52.128Z GET /users {}
+2024-12-15T18:41:52.545Z GET /users {}
+2024-12-15T18:41:53.609Z GET /users/undefined {}
+2024-12-15T18:42:02.637Z DELETE /users/undefined {}
+2024-12-15T18:42:05.450Z GET /users {}
+2024-12-15T18:42:27.198Z POST /authenticate {"email":"toto@gmail.com","password":"aaaa"}
+2024-12-15T18:42:47.101Z PUT /users/undefined {"nom":"d","prenom":"d","password":"d","adresse":"d","email":"d@gmai.com","carte_bancaire":"d"}
+2024-12-15T18:46:38.880Z GET / {}
+2024-12-15T18:46:38.994Z GET /styles.css {}
+2024-12-15T18:46:39.001Z GET /scripts.js {}
+2024-12-15T18:46:39.047Z GET /favicon.ico {}
+2024-12-15T18:46:43.848Z GET /users {}
+2024-12-15T18:46:44.830Z GET /users {}
+2024-12-15T18:46:45.417Z GET /users {}
+2024-12-15T18:46:45.878Z GET /users {}
+2024-12-15T18:46:52.871Z GET /users {}
+2024-12-15T18:46:54.708Z GET /users/undefined {}
+2024-12-15T18:47:07.075Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:47:23.742Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:47:37.802Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:47:41.209Z GET /users {}
+2024-12-15T18:47:49.189Z DELETE /users/undefined {}
+2024-12-15T18:47:50.751Z GET /users {}
+2024-12-15T18:54:54.449Z GET / {}
+2024-12-15T18:54:54.535Z GET /styles.css {}
+2024-12-15T18:54:54.541Z GET /scripts.js {}
+2024-12-15T18:54:54.592Z GET /favicon.ico {}
+2024-12-15T18:55:04.946Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:55:09.603Z GET /users {}
+2024-12-15T18:55:12.094Z GET /users {}
+2024-12-15T18:55:16.824Z GET /users/undefined {}
+2024-12-15T18:55:45.493Z PUT /users/undefined {"nom":"d","prenom":"e","password":"dede","adresse":"dd","email":"e@ede.com","carte_bancaire":"1234567345"}
+2024-12-15T18:56:18.920Z DELETE /users/undefined {}
+2024-12-15T18:56:20.211Z GET /users {}
+2024-12-15T18:56:24.031Z DELETE /users/undefined {}
+2024-12-15T18:56:25.275Z GET /users {}
+2024-12-15T18:57:12.156Z GET / {}
+2024-12-15T18:57:12.289Z GET /styles.css {}
+2024-12-15T18:57:12.296Z GET /scripts.js {}
+2024-12-15T18:57:12.356Z GET /favicon.ico {}
+2024-12-15T18:57:24.792Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T18:57:30.769Z GET /users/ {}
+2024-12-15T18:57:32.035Z GET /users/ {}
+2024-12-15T18:57:34.623Z GET /users {}
+2024-12-15T18:57:39.792Z GET /users/undefined {}
+2024-12-15T18:58:14.537Z PUT /users/undefined {"nom":"r","prenom":"r","password":"rrrr","adresse":"rzerze","email":"a@gmail.com","carte_bancaire":"123344454"}
+2024-12-15T18:58:15.978Z GET /users {}
+2024-12-15T19:00:04.316Z GET / {}
+2024-12-15T19:00:04.467Z GET /styles.css {}
+2024-12-15T19:00:04.475Z GET /scripts.js {}
+2024-12-15T19:00:04.515Z GET /favicon.ico {}
+2024-12-15T19:00:13.942Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T19:00:17.485Z GET /users {}
+2024-12-15T19:00:21.462Z DELETE /users/undefined {}
+2024-12-15T19:00:22.747Z GET /users {}
+2024-12-15T19:00:27.014Z DELETE /users/undefined {}
+2024-12-15T19:00:28.485Z GET /users {}
+2024-12-15T19:01:01.919Z POST /register {"nom":"totoe","prenom":"toti","password":"zz","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T19:01:08.745Z POST /register {"nom":"totoezz","prenom":"toti","password":"zz","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T19:01:20.524Z POST /register {"nom":"totoezz","prenom":"totizz","password":"zz","adresse":"9 rue de totoz","email":"totzo@gmail.com","carte_bancaire":"1213212342343243224"}
+2024-12-15T19:05:58.493Z GET / {}
+2024-12-15T19:05:58.609Z GET /styles.css {}
+2024-12-15T19:05:58.614Z GET /scripts.js {}
+2024-12-15T19:05:58.671Z GET /favicon.ico {}
+2024-12-15T19:06:07.621Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T19:06:10.386Z GET /users {}
+2024-12-15T19:06:14.264Z DELETE /users/undefined {}
+2024-12-15T19:06:15.731Z GET /users {}
+2024-12-15T19:06:19.629Z DELETE /users/undefined {}
+2024-12-15T19:06:21.056Z GET /users {}
+2024-12-15T19:06:25.882Z DELETE /users/undefined {}
+2024-12-15T19:06:27.319Z GET /users {}
+2024-12-15T19:08:40.221Z GET / {}
+2024-12-15T19:08:40.350Z GET /styles.css {}
+2024-12-15T19:08:40.360Z GET /scripts.js {}
+2024-12-15T19:08:40.409Z GET /favicon.ico {}
+2024-12-15T19:08:48.045Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T19:08:51.272Z GET /users {}
+2024-12-15T19:08:53.828Z DELETE /users/undefined {}
+2024-12-15T19:08:55.039Z GET /users {}
+2024-12-15T19:08:57.377Z DELETE /users/undefined {}
+2024-12-15T19:08:58.504Z GET /users {}
+2024-12-15T19:16:07.225Z GET / {}
+2024-12-15T19:16:07.353Z GET /styles.css {}
+2024-12-15T19:16:07.358Z GET /scripts.js {}
+2024-12-15T19:16:07.412Z GET /favicon.ico {}
+2024-12-15T19:16:14.956Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T19:16:18.429Z GET /users {}
+2024-12-15T19:16:19.457Z GET /users/undefined {}
+2024-12-15T19:16:24.301Z DELETE /users/undefined {}
+2024-12-15T19:16:25.470Z GET /users {}
+2024-12-15T19:16:28.513Z DELETE /users/undefined {}
+2024-12-15T19:16:29.806Z GET /users {}
+2024-12-15T19:17:05.116Z PUT /users/undefined {"nom":"d","prenom":"d","password":"d","adresse":"d","email":"d@gmail.com","carte_bancaire":"123456"}
+2024-12-15T19:17:06.675Z GET /users {}
+2024-12-15T19:17:06.690Z GET /users/undefined {}
+2024-12-15T19:17:13.590Z PUT /users/undefined {"nom":"d","prenom":"d","password":"d","adresse":"d","email":"d@gmail.com","carte_bancaire":"123456"}
+2024-12-15T19:17:15.321Z GET /users {}
+2024-12-15T19:17:15.332Z GET /users/undefined {}
+2024-12-15T19:17:21.692Z GET /users {}
+2024-12-15T19:17:22.163Z GET /users {}
+2024-12-15T19:17:23.198Z GET /users {}
+2024-12-15T19:17:47.404Z GET / {}
+2024-12-15T19:17:47.445Z GET /styles.css {}
+2024-12-15T19:17:47.455Z GET /scripts.js {}
+2024-12-15T19:17:47.487Z GET /favicon.ico {}
+2024-12-15T19:17:48.119Z GET / {}
+2024-12-15T19:17:48.137Z GET /styles.css {}
+2024-12-15T19:17:48.144Z GET /scripts.js {}
+2024-12-15T19:17:48.171Z GET /favicon.ico {}
+2024-12-15T19:17:53.656Z POST /authenticate {"email":"toto@gmail.com","password":"AA"}
+2024-12-15T19:18:06.017Z GET / {}
+2024-12-15T19:18:06.134Z GET /styles.css {}
+2024-12-15T19:18:06.139Z GET /scripts.js {}
+2024-12-15T19:18:06.199Z GET /favicon.ico {}
+2024-12-15T19:18:11.201Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T19:18:13.707Z GET /users {}
+2024-12-15T19:18:18.527Z DELETE /users/undefined {}
+2024-12-15T19:18:19.615Z GET /users {}
+2024-12-15T19:18:23.346Z DELETE /users/undefined {}
+2024-12-15T19:18:24.458Z GET /users {}
+2024-12-15T19:27:26.421Z GET / {}
+2024-12-15T19:27:26.535Z GET /styles.css {}
+2024-12-15T19:27:26.541Z GET /scripts.js {}
+2024-12-15T19:27:26.594Z GET /favicon.ico {}
+2024-12-15T19:27:51.532Z GET / {}
+2024-12-15T19:27:51.597Z GET /styles.css {}
+2024-12-15T19:27:51.606Z GET /scripts.js {}
+2024-12-15T19:27:51.677Z GET /favicon.ico {}
+2024-12-15T19:28:00.400Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T19:28:13.875Z GET /users {}
+2024-12-15T19:28:18.430Z DELETE /users/undefined {}
+2024-12-15T19:28:20.048Z GET /users {}
+2024-12-15T19:28:42.233Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T19:29:30.298Z POST /register {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T19:29:42.716Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T19:30:42.698Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T19:31:53.816Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T19:36:02.153Z POST /authenticate {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T19:36:27.096Z GET /users {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T19:36:27.791Z GET /users {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T19:36:34.619Z GET /users/1 {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T19:36:49.221Z DELETE /users/5 {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T19:36:59.925Z GET /users/ {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T19:37:08.755Z GET / {}
+2024-12-15T19:37:08.771Z GET /styles.css {}
+2024-12-15T19:37:08.776Z GET /scripts.js {}
+2024-12-15T19:37:08.802Z GET /favicon.ico {}
+2024-12-15T19:37:13.935Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T19:38:31.869Z GET / {}
+2024-12-15T19:38:31.910Z GET /styles.css {}
+2024-12-15T19:38:31.919Z GET /scripts.js {}
+2024-12-15T19:38:31.982Z GET /favicon.ico {}
+2024-12-15T19:38:38.913Z POST /register {"nom":"totoe","prenom":"toti","password":"AA","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T19:39:40.653Z GET / {}
+2024-12-15T19:39:40.679Z GET /styles.css {}
+2024-12-15T19:39:40.691Z GET /scripts.js {}
+2024-12-15T19:39:40.768Z GET /favicon.ico {}
+2024-12-15T19:39:47.897Z POST /register {"nom":"totoe","prenom":"toti","password":"AA","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T19:44:59.621Z GET / {}
+2024-12-15T19:44:59.794Z GET /styles.css {}
+2024-12-15T19:44:59.803Z GET /scripts.js {}
+2024-12-15T19:44:59.922Z GET /favicon.ico {}
+2024-12-15T19:47:43.649Z GET / {}
+2024-12-15T19:47:43.704Z GET /styles.css {}
+2024-12-15T19:47:43.713Z GET /scripts.js {}
+2024-12-15T19:47:43.813Z GET /favicon.ico {}
+2024-12-15T19:47:51.174Z POST /register {"nom":"toto","prenom":"toti","mot_de_passe":{},"adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T19:53:27.483Z GET / {}
+2024-12-15T19:53:27.537Z GET /styles.css {}
+2024-12-15T19:53:27.540Z GET /scripts.js {}
+2024-12-15T19:53:27.582Z GET /favicon.ico {}
+2024-12-15T19:53:37.877Z POST /register {"nom":"toto","prenom":"toti","mot_de_passe":{},"adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T19:56:03.634Z GET / {}
+2024-12-15T19:56:03.693Z GET /styles.css {}
+2024-12-15T19:56:03.696Z GET /scripts.js {}
+2024-12-15T19:56:03.737Z GET /favicon.ico {}
+2024-12-15T19:56:12.150Z POST /register {"nom":"toto","prenom":"toti","mot_de_passe":{},"adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T19:56:32.685Z GET / {}
+2024-12-15T19:56:32.740Z GET /styles.css {}
+2024-12-15T19:56:32.749Z GET /scripts.js {}
+2024-12-15T19:56:32.799Z GET /favicon.ico {}
+2024-12-15T19:56:47.516Z POST /register {"nom":"toto","prenom":"toti","mot_de_passe":{},"adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T19:57:42.734Z GET / {}
+2024-12-15T19:57:42.788Z GET /styles.css {}
+2024-12-15T19:57:42.792Z GET /scripts.js {}
+2024-12-15T19:57:42.829Z GET /favicon.ico {}
+2024-12-15T19:57:47.905Z POST /register {"nom":"totoe","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T19:58:51.035Z GET / {}
+2024-12-15T19:58:51.098Z GET /styles.css {}
+2024-12-15T19:58:51.102Z GET /scripts.js {}
+2024-12-15T19:58:51.142Z GET /favicon.ico {}
+2024-12-15T19:59:01.046Z POST /register {"nom":"totoe","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T19:59:52.847Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T19:59:56.452Z GET /users {}
+2024-12-15T19:59:59.287Z DELETE /users/undefined {}
+2024-12-15T20:00:01.174Z GET /users {}
+2024-12-15T20:00:04.136Z DELETE /users/undefined {}
+2024-12-15T20:00:05.565Z GET /users {}
+2024-12-15T20:00:27.190Z DELETE /users/5 {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T20:00:46.185Z GET /users/ {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T20:01:03.972Z DELETE /users/12 {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T20:01:08.664Z GET /users/ {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T20:01:37.013Z POST /register {"nom":"totoe","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T20:01:48.372Z GET /users/undefined {}
+2024-12-15T20:01:52.065Z GET /users/undefined {}
+2024-12-15T20:03:20.061Z GET / {}
+2024-12-15T20:03:20.113Z GET /styles.css {}
+2024-12-15T20:03:20.117Z GET /scripts.js {}
+2024-12-15T20:03:20.162Z GET /favicon.ico {}
+2024-12-15T20:03:27.767Z POST /register {"nom":"totoe","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T20:03:32.173Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T20:03:34.146Z GET /users {}
+2024-12-15T20:08:19.120Z GET / {}
+2024-12-15T20:08:19.172Z GET /styles.css {}
+2024-12-15T20:08:19.176Z GET /scripts.js {}
+2024-12-15T20:08:19.221Z GET /favicon.ico {}
+2024-12-15T20:08:29.128Z POST /register {"nom":"totoe","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T20:08:33.349Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T20:08:35.553Z GET /users {}
+2024-12-15T20:08:39.206Z DELETE /users/undefined {}
+2024-12-15T20:08:40.598Z GET /users {}
+2024-12-15T20:08:45.871Z DELETE /users/undefined {}
+2024-12-15T20:08:47.592Z GET /users {}
+2024-12-15T20:08:59.561Z PUT /users/undefined {"nom":"d","prenom":"d","password":"aaa","adresse":"d","email":"d@gmail.com","carte_bancaire":"123456"}
+2024-12-15T20:09:01.791Z GET /users {}
+2024-12-15T20:09:01.801Z GET /users/undefined {}
+2024-12-15T20:09:40.732Z GET / {}
+2024-12-15T20:09:40.791Z GET /styles.css {}
+2024-12-15T20:09:40.794Z GET /scripts.js {}
+2024-12-15T20:09:40.840Z GET /favicon.ico {}
+2024-12-15T20:09:47.084Z POST /register {"nom":"totoe","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T20:10:00.327Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T20:10:03.852Z GET /users {}
+2024-12-15T20:10:09.884Z PUT /users/undefined {"nom":"d","prenom":"d","password":"aaa","adresse":"d","email":"d@gmail.com","carte_bancaire":"123456"}
+2024-12-15T20:15:09.715Z GET / {}
+2024-12-15T20:15:09.800Z GET /styles.css {}
+2024-12-15T20:15:09.805Z GET /scripts.js {}
+2024-12-15T20:15:09.837Z GET /favicon.ico {}
+2024-12-15T20:15:15.456Z POST /register {"nom":"totoe","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T20:15:20.783Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T20:15:23.093Z GET /users {}
+2024-12-15T20:15:30.725Z PUT /users/undefined {"nom":"d","prenom":"d","password":"aa","adresse":"d","email":"d@gmail.com","carte_bancaire":"123456"}
+2024-12-15T20:15:32.309Z GET /users {}
+2024-12-15T20:15:32.318Z GET /users/undefined {}
+2024-12-15T20:15:41.690Z DELETE /users/undefined {}
+2024-12-15T20:15:42.598Z GET /users {}
+2024-12-15T20:15:48.784Z DELETE /users/undefined {}
+2024-12-15T20:15:50.446Z GET /users {}
+2024-12-15T20:27:32.888Z GET / {}
+2024-12-15T20:27:32.935Z GET /styles.css {}
+2024-12-15T20:27:32.940Z GET /scripts.js {}
+2024-12-15T20:27:39.282Z POST /register {"nom":"totoe","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T20:27:48.884Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T20:27:52.008Z GET /users {}
+2024-12-15T20:27:59.675Z DELETE /users/undefined {}
+2024-12-15T20:28:00.802Z GET /users {}
+2024-12-15T20:28:03.813Z DELETE /users/undefined {}
+2024-12-15T20:28:05.358Z GET /users {}
+2024-12-15T20:29:17.621Z GET / {}
+2024-12-15T20:29:17.679Z GET /styles.css {}
+2024-12-15T20:29:17.683Z GET /scripts.js {}
+2024-12-15T20:29:22.461Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T20:29:26.780Z GET /users {}
+2024-12-15T20:29:28.628Z DELETE /users {}
+2024-12-15T20:29:32.690Z GET /users/undefined {}
+2024-12-15T20:32:03.020Z GET / {}
+2024-12-15T20:32:03.071Z GET /styles.css {}
+2024-12-15T20:32:03.075Z GET /scripts.js {}
+2024-12-15T20:32:16.443Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T20:32:20.567Z GET /users {}
+2024-12-15T20:32:28.186Z DELETE /users/undefined {}
+2024-12-15T20:32:29.556Z GET /users {}
+2024-12-15T20:33:41.297Z DELETE /users/12 {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T20:33:47.240Z GET /users/ {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T20:34:05.560Z DELETE /users/7 {"nom":"john","prenom":"doe","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T20:34:10.386Z GET /users/ {"nom":"johnu","prenom":"doeh","mot_de_passe":"123242343","adresse":"1 rue du boucher, paris 75014","email":"doe@gmail.com","carte_bancaire":"12234123434324"}
+2024-12-15T20:45:05.939Z GET / {}
+2024-12-15T20:45:06.000Z GET /styles.css {}
+2024-12-15T20:45:06.005Z GET /scripts.js {}
+2024-12-15T20:45:10.758Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T20:45:14.474Z GET /users {}
+2024-12-15T20:45:19.835Z DELETE /users/undefined {}
+2024-12-15T20:45:21.267Z GET /users {}
+2024-12-15T20:54:00.960Z GET / {}
+2024-12-15T20:54:00.979Z GET /styles.css {}
+2024-12-15T20:54:00.983Z GET /scripts.js {}
+2024-12-15T20:54:06.153Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T20:54:08.460Z GET /users {}
+2024-12-15T20:54:12.488Z DELETE /users/undefined {}
+2024-12-15T20:54:13.560Z GET /users {}
+2024-12-15T20:54:15.516Z DELETE /users/undefined {}
+2024-12-15T20:54:16.696Z GET /users {}
+2024-12-15T20:56:00.006Z GET /users {}
+2024-12-15T21:01:20.832Z GET / {}
+2024-12-15T21:01:20.902Z GET /styles.css {}
+2024-12-15T21:01:20.906Z GET /scripts.js {}
+2024-12-15T21:01:49.126Z GET / {}
+2024-12-15T21:01:49.185Z GET /styles.css {}
+2024-12-15T21:01:49.189Z GET /scripts.js {}
+2024-12-15T21:03:39.960Z POST /register {"nom":"toto","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T21:03:50.187Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T21:03:53.040Z GET /users {}
+2024-12-15T21:04:02.423Z PUT /users/undefined {"nom":"d","prenom":"d","password":"aa","adresse":"d","email":"d@gmail.com","carte_bancaire":"123456"}
+2024-12-15T21:04:05.102Z GET /users {}
+2024-12-15T21:04:05.109Z GET /users/undefined {}
+2024-12-15T21:04:14.450Z DELETE /users/undefined {}
+2024-12-15T21:04:15.603Z GET /users {}
+2024-12-15T21:05:25.627Z GET / {}
+2024-12-15T21:05:25.648Z GET /styles.css {}
+2024-12-15T21:05:25.653Z GET /scripts.js {}
+2024-12-15T21:05:25.700Z GET /favicon.ico {}
+2024-12-15T21:05:44.901Z POST /register {"nom":"toto","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T21:05:49.451Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T21:05:51.840Z GET /users {}
+2024-12-15T21:05:57.082Z PUT /users/undefined {"nom":"d","prenom":"d","password":"aa","adresse":"d","email":"d@gmail.com","carte_bancaire":"123456"}
+2024-12-15T21:05:59.688Z DELETE /users/undefined {}
+2024-12-15T21:06:01.905Z GET /users {}
+2024-12-15T21:06:59.246Z GET / {}
+2024-12-15T21:06:59.258Z GET /styles.css {}
+2024-12-15T21:06:59.261Z GET /scripts.js {}
+2024-12-15T21:06:59.292Z GET /favicon.ico {}
+2024-12-15T21:07:10.025Z POST /register {"nom":"toto","prenom":"toti","password":"aa","adresse":"9 rue de toto","email":"toto@gmail.com","carte_bancaire":"12132123423432434"}
+2024-12-15T21:07:16.013Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T21:07:18.494Z GET /users {}
+2024-12-15T21:07:30.158Z PUT /users/undefined {"nom":"d","prenom":"d","password":"aa","adresse":"d","email":"d@gmail.com","carte_bancaire":"123456"}
+2024-12-15T21:07:32.882Z DELETE /users/undefined {}
+2024-12-15T21:07:34.238Z GET /users {}
+2024-12-15T21:31:09.581Z GET / {}
+2024-12-15T21:31:09.598Z GET /styles.css {}
+2024-12-15T21:31:09.603Z GET /scripts.js {}
+2024-12-15T21:31:09.628Z GET /favicon.ico {}
+2024-12-15T21:31:13.586Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T21:31:16.724Z GET / {}
+2024-12-15T21:31:16.733Z GET /styles.css {}
+2024-12-15T21:31:16.736Z GET /scripts.js {}
+2024-12-15T21:31:16.755Z GET /favicon.ico {}
+2024-12-15T21:31:17.173Z GET / {}
+2024-12-15T21:31:17.184Z GET /styles.css {}
+2024-12-15T21:31:17.187Z GET /scripts.js {}
+2024-12-15T21:31:17.210Z GET /favicon.ico {}
+2024-12-15T21:31:17.557Z GET / {}
+2024-12-15T21:31:17.567Z GET /styles.css {}
+2024-12-15T21:31:17.569Z GET /scripts.js {}
+2024-12-15T21:31:17.589Z GET /favicon.ico {}
+2024-12-15T21:31:20.854Z POST /authenticate {"email":"toto@gmail.com","password":"aa"}
+2024-12-15T21:31:22.974Z GET /users {}
+2024-12-15T21:31:29.066Z PUT /users/undefined {"nom":"d","prenom":"d","password":"aa","adresse":"d","email":"d@gmail.com","carte_bancaire":"123456"}
+2024-12-15T21:31:31.256Z DELETE /users/undefined {}
+2024-12-15T21:31:32.320Z GET /users {}
